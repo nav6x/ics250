@@ -359,7 +359,7 @@ flowchart LR
 | Metric | RSA Cryptosystem | ElGamal Cryptosystem |
 | :--- | :--- | :--- |
 | **Hardness Assumption** | Integer Factorization Problem (IFP) | Discrete Logarithm Problem (DLP) |
-| **Ciphertext Size** | $1 \times$ Message Length ($|C| = |M|$) | **$2 \times$ Message Length** ($(c_1, c_2)$ pair) |
+| **Ciphertext Size** | $1 \times$ Message Length ($\vert C \vert = \vert M \vert$) | **$2 \times$ Message Length** ($(c_1, c_2)$ pair) |
 | **Encryption Type** | Deterministic (requires padding) | **Probabilistic** (Random ephemeral key $k$) |
 
 ---

@@ -106,7 +106,7 @@ $$C^d \equiv (P^e)^d = P^{e \cdot d} = P^{1 + k \cdot \phi(n)} = P^1 \cdot \left
 - Primes: $p = 397, q = 401 \implies n = 397 \times 401 = \mathbf{159197}$.
 - Totient: $\phi(n) = (397 - 1)(401 - 1) = 396 \times 400 = \mathbf{158400}$.
 - Exponents: $e = 343$, $d = 12007$ (since $343 \times 12007 = 4118401 = 26 \times 158400 + 1 \equiv 1 \pmod{158400}$).
-- **Text Encoding**: Plaintext `"NO"` $\rightarrow$ `'N' = 13, 'O' = 14 \implies P = 1314$.
+- **Text Encoding**: Plaintext `"NO"` $\rightarrow \text{'N'} = 13, \text{'O'} = 14 \implies P = 1314$.
 - **Encryption**:
   $$C = 1314^{343} \pmod{159197} = \mathbf{33677}$$
 - **Decryption**:
